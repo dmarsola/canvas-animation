@@ -1,0 +1,55 @@
+/*
+Color Scheme:
+https://coolors.co/d5f2e3-c68e15-003e1f-910505-01110a
+Aero Blue #d5f2e3;
+Dark Goldenrod #c68e15;
+Up Forest Green #003e1f;
+Sangria #910505;
+Rich Black #01110a;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Righteous');
+
+body {
+	font-family: 'Oswald', sans-serif;
+	background-color: #01110a;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+#cnv { position: absolute; }
+
+a:link{	text-decoration: none; color: #01110a; }
+a:visited{ color: #01110a; }
+a:hover{ color: #c68e15; }
+
+#mario{
+	color: #c68e15;
+	float: left;
+	top: 50vh;
+	left: -200px;
+	position: relative;
+	font-size: 20vh;
+}
+
+#dialogue {
+	float: left;
+	margin: auto;
+	width: 80vw;
+	height: auto;
+	min-height: 10vw;
+	font-size: 3vw;
+	text-align: center;
+	background-color: white;
+	opacity: .2;
+}
+
+#skip {
+	top: 70vh;
+	float: right;
+	background-color: white;
+	opacity: .3;
+	padding: 1vw 3vh;
+	border-radius: .5em;
+	position: relative;
+}
